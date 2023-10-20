@@ -3,9 +3,13 @@
 header {
   display: inline-flex;
   padding: 5px;
-  background-color: orange;
   width: 100%;
   justify-content: space-between;
+  align-items: center;
+}
+
+.hamburger, .logo-youtube, .material-symbols-outlined, .usuario img {
+  cursor: pointer;
 }
 
 .hamburger {
@@ -47,8 +51,32 @@ header {
   margin-left: 30px;
 }
 
-.pesquisa span {
-  margin-left: 10px;
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.pesquisa-lupa {
+  background-color: #f8f8f8;
+  border-top: 1px solid;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  padding: 0 10px 0 10px;
+  height: 35px;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.pesquisa input {
+  border: 1px solid black;
+  height: 35px;
+  width: 300px;
+  padding: 0 10px;
+  font-size: large;
 }
 
 .usuario {
