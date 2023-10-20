@@ -8,11 +8,6 @@ header {
   justify-content: space-between;
 }
 
-.logo-youtube, .pesquisa, .usuario {
-  display: inline-flex;
-  align-items: center;
-}
-
 .hamburger {
   padding: 5px;
 }
@@ -43,8 +38,25 @@ header {
   position: relative;
 }
 
+.logo-youtube, .pesquisa, .usuario {
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo-youtube img {
+  margin-left: 30px;
+}
+
+.pesquisa span {
+  margin-left: 10px;
+}
+
 .usuario {
   margin-right: 15px;
+}
+
+#notificacao {
+  margin: 0 15px;
 }
 
 .usuario img {
