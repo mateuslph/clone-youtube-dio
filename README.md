@@ -37,7 +37,14 @@ Em seguido, foi iniciado a estilização através do arquivo styles.css, também
 <div align="center">
   <img src="https://github.com/mateuslph/clone-youtube-dio/blob/main/imgs/clone-youtube-cabecalho-estilizado.png"></img>
 </div>
-
 </br>
+<div>
+  <h3>Imagem do projeto finalizado:</h3>
+</div>
+</br>
+<div align="center">
+  <img src="https://github.com/mateuslph/clone-youtube-dio/blob/main/imgs/clone-youtube-dio-final.png"></img>
+</div>
+
 
 <p>EM BREVE MAIS ATUALIZAÇÕES...</p>
