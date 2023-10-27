@@ -103,7 +103,6 @@ main {
 }
 
 .video-grande {
-  background-color: aquamarine;
   height: 50vw;
   width: 60vw;
   margin: 10px 20px 10px 60px;
@@ -122,7 +121,6 @@ main {
 }
 
 .icone-video-grande {
-  background-color: antiquewhite;
   display: flex;
   font-weight: bold;
 }
@@ -137,7 +135,6 @@ main {
 }
 
 .barra-video-grande {
-  background-color: bisque;
   display: flex;
   justify-content: space-between;
   font-size: 0.90rem;
@@ -163,6 +160,7 @@ main {
   border: none;
   font-size: 0.9rem;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .visualizacoes {
@@ -175,7 +173,6 @@ main {
 }
 
 .videos-pequenos {
-  background-color: aquamarine;
   display: flex;
   width: 30vw;
   margin: 0.7vw 1vw;
@@ -184,7 +181,6 @@ main {
 }
 
 .pequeno {
-  background-color: rgb(221, 149, 136);
   display: flex;
   margin-bottom: 1vw;
   
