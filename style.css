@@ -98,6 +98,10 @@ header {
 
 /* main */
 
+main {
+  display: flex;
+}
+
 .video-grande {
   background-color: aquamarine;
   height: 50vw;
@@ -113,7 +117,7 @@ header {
 
 .titulo-video-grande {
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   margin-bottom: 1vw;
 }
 
@@ -136,9 +140,19 @@ header {
   background-color: bisque;
   display: flex;
   justify-content: space-between;
-  font-size: 0.90em;
+  font-size: 0.90rem;
   align-items: center;
   padding-right: 3vw;
+  margin-bottom: 1vw;
+}
+
+.video-grande-simbolos {
+  display: flex;
+  align-items: center;
+}
+
+.video-grande-simbolos span {
+  margin-right: 0.5vw;
 }
 
 .barra-video-grande button {
@@ -147,4 +161,52 @@ header {
   color: #fff;
   background-color: red;
   border: none;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+.visualizacoes {
+  font-weight: bold;
+  margin-bottom: 1vw;
+}
+
+.comentarios {
+  width: 38vw;
+}
+
+.videos-pequenos {
+  background-color: aquamarine;
+  display: flex;
+  width: 30vw;
+  margin: 0.7vw 1vw;
+  flex-direction: column;
+
+}
+
+.pequeno {
+  background-color: rgb(221, 149, 136);
+  display: flex;
+  margin-bottom: 1vw;
+  
+}
+
+.pequeno iframe {
+  margin-right: 1vw;
+}
+
+.pequeno-textos {
+  font-size: 0.8rem;
+}
+
+.pequeno-titulo {
+  font-weight: bold;
+  margin-bottom: 1vw;
+}
+
+.pequeno-titulo+p {
+  margin-bottom: 1vw;
+}
+
+.pequeno-visualizacoes>p {
+  margin-bottom: 0.3vw;
 }
